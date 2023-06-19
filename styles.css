@@ -1,6 +1,15 @@
 /*  your css code here. If applicable */
-.red{
-	color: red;
-	font-size:20px;
-	font-weight:10px;
+p::before{
+	content: "Before Element "
+	
+}
+p::before{
+	color:red;
+}
+p::after{
+	content: "After Element"
+	
+}
+p::after{
+	color:red;
 }
