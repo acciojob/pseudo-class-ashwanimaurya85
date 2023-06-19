@@ -1,15 +1,9 @@
 /*  your css code here. If applicable */
-p::before{
-	content: "Before Element "
-	
-}
-p::before{
+div::before{
+	content: "Before Element ";
 	color:red;
 }
-p::after{
-	content: " After Element"
-	
-}
-p::after{
+div::after{
+	content: " After Element";
 	color:red;
 }
